@@ -1,0 +1,27 @@
+.shake {
+    color: red;
+    position: relative;
+    animation: 350ms shake linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 15px;
+    }
+
+    50% {
+        left: 0;
+    }
+    75%{
+        left: -15px;
+    }
+
+    100% {
+        left: 0;
+    }
+
+}
